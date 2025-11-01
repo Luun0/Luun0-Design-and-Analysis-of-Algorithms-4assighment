@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+/.idea/
+/target/
+/out/
+/*.iml
+/.DS_Store
+/results/
+EOF
+
+git add .gitignore
+git commit -m "add .gitignore to ignore IDE and build files"
+git push -u origin main
